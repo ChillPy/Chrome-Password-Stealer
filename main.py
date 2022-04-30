@@ -65,4 +65,4 @@ if __name__ == "__main__":
 
         os.remove("Loginvault.db")
     except Exception as e:
-        print(e
+        print(e)
