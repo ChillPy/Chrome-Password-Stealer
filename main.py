@@ -31,7 +31,7 @@ class Main:
             Decrypt = Decrypt[:-16].decode()
             return Decrypt
         except:
-            return "Chrome < 80"
+            return "Password decryption failed"
 
 if __name__ == "__main__":
     try:
